@@ -292,10 +292,10 @@ int main() {
 	system((sys)? "clear" : "cls");
 
 	printf("Welcome to tic tac toe ^_^\n");
-    fflush(stdout);
-    wait(2);
-    printf("We each place 3 pieces.\n");
-    fflush(stdout);
+	fflush(stdout);
+	wait(2);
+	printf("We each place 3 pieces.\n");
+	fflush(stdout);
 	wait(2);
 
 	fill_brd(), sh_board(); //make the board ready, show the empty board to user
